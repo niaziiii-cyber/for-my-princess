@@ -3,6 +3,7 @@ const memories = [
     {
         id: 1,
         title: "Long Distance",
+        note: "Even with miles between us, you feel closer than anyone ever has. Every sunset I watch alone, I know you're seeing it too. Every conversation, every 'good morning' text, every 'I miss you' whispered through the screen - they're not reminders of the distance, but proof that love knows no boundaries. These pixels on my screen hold the most beautiful heart I've ever known, and though I can't reach out and touch you, I feel your presence in every moment of my day. The space between us is just geography; in every way that matters, you're right here with me.",
         videoFile: "video1.mp4",
         icon: "fas fa-plane",
         viewed: false
@@ -369,4 +370,5 @@ function resetViewedMemories() {
 }
 
 // Initialize the app when DOM is loaded
+
 document.addEventListener('DOMContentLoaded', init);
